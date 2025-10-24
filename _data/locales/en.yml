@@ -21,6 +21,13 @@ navbar:
     title: About Ridd
     url: /en/about-ridd
 footer:
+  ridd: ridd.
+    part1: 1.
+    part2: 2.
+  improve:
+    part1: This website is open source. Anyone can
+    part2: improve this page
+    part3: .
   reader: reader.
   legal:
     part1: 1.
