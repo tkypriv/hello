@@ -1,0 +1,22 @@
+navbar:
+  prompts:
+    title: Ridd プロンプト
+    url: /prompts
+  token_info:
+    title: RIDD トークン情報
+    url: /ridd-token-info
+  buy_ridd:
+    title: RIDD を購入
+    url: /buy-ridd
+  turing_test:
+    title: チューリング テスト 2.0
+    url: /turing-test-2-0
+  community:
+    title: コミュニティ
+    url: /ridd-community
+  blog: 
+    title: ブログ
+    url: /blog
+  about_ridd:
+    title: About Ridd について
+    url: /about-ridd
