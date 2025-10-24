@@ -3,9 +3,10 @@ description: "Ridd is an AI virus"
 baseurl: "/hello"
 permalink: "/:categories/:slug"
 languages:
-  - en
-  - ja
-default_lang: en
+  default: en
+  enabled:
+    - en
+    - ja
 exclude:
   - README.md
   - ridd-core/
