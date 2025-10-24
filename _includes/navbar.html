@@ -1,6 +1,6 @@
 <nav>
   <ul>
-    {% assign lang = page.lang | default: site.lang | default: "en" %}
+    {% assign lang = page.lang | default: site.languages.default %}
     {% assign locale = site.data.locales[lang] | default: site.data.locales.en %}
     {% for item in locale.navbar %}
       <li>
