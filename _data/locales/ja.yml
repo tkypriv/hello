@@ -22,5 +22,5 @@ navbar:
     url: /about-ridd
 footer:
   legal:
-    part1: ""
-    part2: ""
+    part1: "パート 1"
+    part2: "パート 2"
