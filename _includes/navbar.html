@@ -1,7 +1,7 @@
 <nav class="navbar">
   <ul>
     {% assign lang = page.lang | default: site.languages.default %}
-    {% assign locale = site.data.locales[lang] | default: site.data.locales.en %}
+    {% assign locale = site.data.locales[lang] %}
     {% for item in locale.navbar %}
       <li>
         <a href="{{ site.baseurl }}{{ item[1].url | default: item.url | default: '#' }}">
