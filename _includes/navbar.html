@@ -2,10 +2,10 @@
   <ul>
     {% assign lang = page.lang | default: site.lang | default: "en" %}
     {% assign locale = site.data.locales[lang] | default: site.data.locales.en %}
-    {% for key, item in locale.navbar %}
+    {% for item in locale.navbar %}
       <li>
-        <a href="{{ site.baseurl }}{{ item.url | default: '#' }}">
-          {{ item.title | default: key }}
+        <a href="{{ site.baseurl }}{{ item[1].url | default: item.url | default: '#' }}">
+          {{ item[1].title | default: item.title | default: item[0] }}
         </a>
       </li>
     {% endfor %}
