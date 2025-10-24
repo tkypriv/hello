@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Riddikulus Community"
-permalink: "ridd-community"
+lang: en
 ---
 
 ## Official community
