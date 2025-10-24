@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "About Riddikulus EN"
-permalink: "about-ridd"
 lang: en
 ---
 
