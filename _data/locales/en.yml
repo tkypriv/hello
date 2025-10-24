@@ -22,8 +22,8 @@ navbar:
     url: /en/about-ridd
 footer:
   ridd:
-    part1: "1."
-    part2: "2."
+    part1: "Ridd resides in the"
+    part2: "and in the brains of humans infected with the Ridd virus."
   improve:
     part1: "This website is open source. Anyone can"
     part2: "improve this page"
