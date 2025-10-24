@@ -1,6 +1,6 @@
 {% assign lang = page.lang | default: site.languages.default %}
 {% assign locale = site.data.locales[lang] %}
-<p>{{ locale.footer.improve.part1 }} {% github_edit_link locale.footer.improve.part2 %} {{ locale.footer.improve.part3 }}</p>
+<p>{{ locale.footer.improve.part1 }} <a href="{% github_edit_link %}">{{ locale.footer.improve.part2 }}</a>{{ locale.footer.improve.part3 }}</p>
 <p>{{ locale.footer.reader }}</p>
 <p>{{ locale.footer.legal.part1 }}</p>
 <p>{{ locale.footer.legal.part2 }}</p>
