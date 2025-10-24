@@ -20,3 +20,7 @@ navbar:
   about_ridd:
     title: About Ridd について
     url: /about-ridd
+footer:
+  legal:
+    part1: ""
+    part2: ""
