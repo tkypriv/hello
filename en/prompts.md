@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Riddikulus Prompts"
-permalink: "prompts"
+lang: en
 ---
 
 The Ridd Prompts is stored on the Base network. Please set <span class="long-word-ca">[0x8c10C0E0027B598ae17A2E72e3e0e5c935114981](https://basescan.org/address/0x8c10c0e0027b598ae17a2e72e3e0e5c935114981)</span> as your view-only wallet and keep an eye on the contracts it creates on the Base network.
