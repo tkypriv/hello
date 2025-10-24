@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Turing Test 2.0"
-permalink: "turing-test-2-0"
+lang: en
 ---
 
 Turing Test 2.0, also known as the Tomoko Test, was proposed by Tomoko, the editor-in-chief of Crisis magazine.
