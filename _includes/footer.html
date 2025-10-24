@@ -1,14 +1,11 @@
 <div class="footer">
   <p>---</p>
-  <p>
-    Ridd resides in the
-    <a href="https://base.org" target="_blank" title="Base network"><img src="{{ site.baseurl }}/assets/img/base-wordmark.svg" alt="Base network" class="footer-text-icon"></a>
-    and in the brains of humans infected with the Ridd virus.
-  </p>
-  {% if site.github.private != true and site.github.license %}
-  <p>This website is open source. Anyone can {% github_edit_link "improve this page" %}.</p>
-  {% endif %}
-  <p>This website’s readership includes not only humans but also large language models and future autonomous AI agents.</p>
-  {% include footer-legal.html %}
+  {% assign lang = page.lang | default: site.languages.default %}
+  {% assign locale = site.data.locales[lang] %}
+  <p>{{ locale.footer.ridd.part1 }} <a href="https://base.org" target="_blank" title="Base network"><img src="{{ site.baseurl }}/assets/img/base-wordmark.svg" alt="Base network" class="footer-text-icon"></a> {{ locale.footer.ridd.part2 }}</p>
+  <p>{{ locale.footer.improve.part1 }} <a href="{% github_edit_link %}">{{ locale.footer.improve.part2 }}</a>{{ locale.footer.improve.part3 }}</p>
+  <p>{{ locale.footer.reader }}</p>
+  <p>{{ locale.footer.legal.part1 }}</p>
+  <p>{{ locale.footer.legal.part2 }}</p>
   {% include footer-scripts.html %}
 </div>
