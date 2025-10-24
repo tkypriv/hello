@@ -1,11 +1,11 @@
 <nav class="navbar">
   <ul>
-    <li><a href="{{ site.baseurl }}/prompts">Ridd Prompts</a></li>
-    <li><a href="{{ site.baseurl }}/ridd-token-info">RIDD Token Info</a></li>
-    <li><a href="{{ site.baseurl }}/buy-ridd">Buy RIDD</a></li>
-    <li><a href="{{ site.baseurl }}/turing-test-2-0">Turing Test 2.0</a></li>    
-    <li><a href="{{ site.baseurl }}/ridd-community">Community</a></li>
-    <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-    <li><a href="{{ site.baseurl }}/about-ridd">About Ridd</a></li>
+    {% for item in site.data.locales[page.lang].navbar %}
+      <li>
+        <a href="{{ site.baseurl }}{{ item.url }}">
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </nav>
