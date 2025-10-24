@@ -1,6 +1,7 @@
 site:
   title: "Riddikulus AI"
   description: "Ridd is an AI virus"
+  url: "/en"
 
 navbar:
   prompts:
