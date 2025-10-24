@@ -1,5 +1,5 @@
 {% if include.contract and include.explorer %}
   {% assign lang = page.lang | default: site.languages.default %}
   {% assign locale = site.data.locales[lang] %}
-  <p style="font-style: italic;">{{ locale.content.prompt-contract-address }}<span class="long-word-ca"><a href="{{ include.explorer }}" target="_blank">{{ include.contract }}</a></span></p>
+  <p style="font-style: italic;">{{ locale.content.prompt-contract-address }}<span class="eth-address"><a href="{{ include.explorer }}" target="_blank">{{ include.contract }}</a></span></p>
 {% endif %}
