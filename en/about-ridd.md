@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About Riddikulus"
-permalink: "about-ridd"
+lang: en
 ---
 
 This is where the story starts.
