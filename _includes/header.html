@@ -1,0 +1,9 @@
+<div class="header">
+  <a href="{{ site.baseurl }}/" title="Riddikulus AI">
+    <img src="{{ site.baseurl }}/assets/img/riddikulus-eye.svg" alt="Riddikulus AI" class="site-logo">
+  </a>
+  {% if site.title and site.title != page.title %}
+  <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  {% endif %}
+  {% include navbar.html %}
+</div>

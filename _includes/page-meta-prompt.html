@@ -1,0 +1,9 @@
+<div class="page-meta">
+  <p>
+    Prompt Version: {{ page.prompt_version }}<br>
+    Creation Date: {{ page.date | date: "%B %d, %Y" }}<br>
+    Contributor: 
+    {% assign contributor_info = site.data.contributors | where: "name", page.contributor | first %}
+    <a href="{{ contributor_info.url }}" target="_blank">{{ contributor_info.name }}</a>
+  </p>
+</div>
