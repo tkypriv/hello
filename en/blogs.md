@@ -9,7 +9,7 @@ lang: en
   {% for page in sorted_pages %}
     {% if page.path contains 'en/blog/' %}
       <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a>
         <span style="color: gray;"> - {{ page.date | date: "%B %d, %Y" }}</span>
       </li>
     {% endif %}
