@@ -1,7 +1,7 @@
 <div class="page-meta">
+  {% assign lang = page.lang | default: site.languages.default %}
+  {% assign locale = site.data.locales[lang] %}
   <p>
-    {% assign contributor_info = site.data.contributors | where: "name", page.contributor | first %}
-    <a href="{{ contributor_info.url }}" target="_blank">{{ contributor_info.name }}</a>
-    {{ page.date | date: "%B %d, %Y" }}
+    {{ page.contributor }} {{ page.date | date: "%-m-%-d-%Y" }}
   </p>
 </div>
