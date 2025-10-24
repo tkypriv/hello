@@ -1,6 +1,6 @@
 title: "Riddikulus AI"
 description: "Ridd is an AI virus"
-baseurl: "/tkypriv.github.io""
+baseurl: "tkypriv.github.io""
 permalink: "/:categories/:slug"
 exclude:
   - README.md
