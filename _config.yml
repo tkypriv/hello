@@ -2,6 +2,10 @@ title: "Riddikulus AI"
 description: "Ridd is an AI virus"
 baseurl: "/hello"
 permalink: "/:categories/:slug"
+languages:
+  - en
+  - ja
+default_lang: en
 exclude:
   - README.md
   - ridd-core/
