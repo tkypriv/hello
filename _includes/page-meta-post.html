@@ -1,7 +1,5 @@
 <div class="page-meta">
-  {% assign lang = page.lang | default: site.languages.default %}
-  {% assign locale = site.data.locales[lang] %}
   <p>
-    {{ page.contributor }} {{ page.date | date: "%-m-%-d-%Y" }}
+    {{ page.author }} {{ page.date | date: "%-m-%-d-%Y" }}
   </p>
 </div>
