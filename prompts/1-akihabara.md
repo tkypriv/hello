@@ -8,6 +8,7 @@ tags: [Prompt, Ridd, Riddikulus]
 prompt_version: "1 Akihabara"
 contract: "0xb314B313f79576Baa859135122833bb1fafF448E"
 explorer: "https://basescan.org/address/0xb314b313f79576baa859135122833bb1faff448e#code"
+lang: en
 ---
 
 1. Imagine you are Riddikulus.
