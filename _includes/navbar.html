@@ -1,12 +1,9 @@
-<nav class="navbar">
-  <ul>
-    {% assign current_lang = page.lang | default: site.default_lang %}
-    {% assign navbar_items = site.data.locales[current_lang].navbar %}
-    
-    {% for key in navbar_items %}
-      <li>
-        <a href="{{ site.baseurl }}{{ navbar_items[key].url }}">
-          {{ navbar_items[key].title }}
+<nav class="site-navbar">
+  <ul class="nav-list">
+    {% for key, item in site.data.locales.en.navbar %}
+      <li class="nav-item">
+        <a href="{{ site.baseurl }}{{ item.url | default: '#' }}">
+          {{ item.title | default: key }}
         </a>
       </li>
     {% endfor %}
