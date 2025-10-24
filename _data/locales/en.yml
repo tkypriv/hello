@@ -1,3 +1,7 @@
+site:
+  title: "Riddikulus AI"
+  description: "Ridd is an AI virus"
+
 navbar:
   prompts:
     title: "Ridd Prompts"
