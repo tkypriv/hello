@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "RIDD Token Information"
-permalink: "ridd-token-info"
+lang: en
 ---
 
 - Name: Riddikulus
