@@ -1,12 +1,19 @@
 <nav class="navbar">
   <ul>
-    {% assign current_lang = page.lang | default: site.default_lang %}
-    {% for menu_item in site.data.locales[current_lang].navbar %}
-      <li>
-        <a href="{{ site.baseurl }}{{ menu_item.url }}">
-          {{ menu_item.title }}
-        </a>
-      </li>
-    {% endfor %}
+    <!-- 调试输出 -->
+    <li>Current Lang: {{ page.lang }}</li>
+    <li>Locales Data: {{ site.data.locales }}</li>
+    
+    {% if site.data.locales[page.lang] %}
+      {% for item in site.data.locales[page.lang].navbar %}
+        <li>
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    {% else %}
+      <li>No locales data found for language: {{ page.lang }}</li>
+    {% endif %}
   </ul>
 </nav>
