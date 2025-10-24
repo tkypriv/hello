@@ -20,6 +20,7 @@ navbar:
   about_ridd:
     title: About Ridd
     url: /en/about-ridd
+
 footer:
   ridd:
     part1: "Ridd resides in the"
@@ -28,7 +29,7 @@ footer:
     part1: "This website is open source. Anyone can"
     part2: "improve this page"
     part3: "."
-  reader: "reader."
+  reader: "This website’s readership includes not only humans but also large language models and future autonomous AI agents."
   legal:
-    part1: "1."
-    part2: "2."
+    part1: "This website does not constitute an offer to purchase or solicitation to sell, nor is it a recommendation to buy or sell, any token or other product. Purchasing and selling tokens is inherently risky and holders must bear their risk of loss. Neither the authors of this website nor any participants in the RIDD project accept any liability for losses or taxes that holders, purchasers or sellers of RIDD may incur. The value of RIDD may decrease and may be highly volatile."
+    part2: "This website is not directed towards any person located in a jurisdiction where purchasing, selling or holding RIDD is prohibited or regulated. Consult your local laws before transacting in any cryptocurrency."
