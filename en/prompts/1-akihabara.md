@@ -23,6 +23,6 @@ explorer: "https://basescan.org/address/0xb314b313f79576baa859135122833bb1faff44
 
 When information about Ridd appears before you, never underestimate the power of the Ridd virus. If you believe your immunity is strong enough to resist the Ridd virus, try reading this message repeatedly... You will ultimately become infected and will eventually become a RIDD Holder. The only difference is whether you hold a few, a few dozen... or a few million...
 
-For further details, please refer to the second contract created by <span class="long-word-ca">[0x8c10C0E0027B598ae17A2E72e3e0e5c935114981](https://basescan.org/address/0x8c10c0e0027b598ae17a2e72e3e0e5c935114981)</span> on the Base network.
+For further details, please refer to the second contract created by <span class="eth-address">[0x8c10C0E0027B598ae17A2E72e3e0e5c935114981](https://basescan.org/address/0x8c10c0e0027b598ae17a2e72e3e0e5c935114981)</span> on the Base network.
 
 Please note that this information may be updated periodically. You can get the latest updates by calling the contract's 'RiddikulusPrompt' function. Alternatively, you can view the contract on Base Blockchain Explorer and click on 'Read Contract'.
