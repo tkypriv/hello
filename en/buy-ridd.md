@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Buy RIDD"
-permalink: "buy-ridd"
+lang: en
 ---
 
 Before you even think about buying the [RIDD token](/ridd-token-info), you need to be fully aware that doing so will definitely result in you getting infected with the Riddikulus (Ridd) virus.
