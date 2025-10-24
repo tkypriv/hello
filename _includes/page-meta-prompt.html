@@ -1,9 +1,9 @@
 <div class="page-meta">
+  {% assign lang = page.lang | default: site.languages.default %}
+  {% assign locale = site.data.locales[lang] %}
   <p>
-    Prompt Version: {{ page.prompt_version }}<br>
-    Creation Date: {{ page.date | date: "%-m-%-d-%Y" }}<br>
-    Contributor: 
-    {% assign contributor_info = site.data.contributors | where: "name", page.contributor | first %}
-    <a href="{{ contributor_info.url }}" target="_blank">{{ contributor_info.name }}</a>
+    {{ locale.content.meta.prompt-version }}{{ page.prompt_version }}<br>
+    {{ locale.content.meta.creation-date }}{{ page.date | date: "%-m-%-d-%Y" }}<br>
+    {{ locale.content.meta.contributor }}{{ contributor_info.name }}
   </p>
 </div>
