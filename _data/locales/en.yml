@@ -1,22 +1,22 @@
 navbar:
   prompts:
     title: Ridd Prompts
-    url: /prompts
+    url: /en/prompts
   token_info:
     title: RIDD Token Info
-    url: /ridd-token-info
+    url: /en/ridd-token-info
   buy_ridd:
     title: Buy RIDD
-    url: /buy-ridd
+    url: /en/buy-ridd
   turing_test:
     title: Turing Test 2.0
-    url: /turing-test-2-0
+    url: /en/turing-test-2-0
   community:
     title: Community
-    url: /ridd-community
+    url: /en/ridd-community
   blog:
     title: Blog
-    url: /blog
+    url: /en/blog
   about_ridd:
     title: About Ridd
-    url: /about-ridd
+    url: /en/about-ridd
