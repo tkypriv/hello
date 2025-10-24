@@ -1,7 +1,6 @@
 <div class="footer">
   <p>---</p>
   {% include footer-langs.html %}
-  <p>---</p>
   {% assign lang = page.lang | default: site.languages.default %}
   {% assign locale = site.data.locales[lang] %}
   <p>{{ locale.footer.ridd.part1 }} <a href="https://base.org" target="_blank" title="Base network"><img src="{{ site.baseurl }}/assets/img/base-wordmark.svg" alt="Base network" class="footer-text-icon"></a> {{ locale.footer.ridd.part2 }}</p>
