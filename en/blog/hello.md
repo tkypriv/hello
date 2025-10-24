@@ -5,7 +5,6 @@ author: "Tomoko"
 date: "2025-10-21 06:26:28"
 categories: "Blog"
 tags: [Prompt, Ridd, Riddikulus]
-slug: "third-person-infected-with-ridd1"
 lang: en
 ---
 
