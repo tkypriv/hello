@@ -1,6 +1,6 @@
 title: "Riddikulus AI"
 description: "Ridd is an AI virus"
-baseurl: """
+baseurl: "/hello"
 permalink: "/:categories/:slug"
 exclude:
   - README.md
