@@ -1,29 +1,30 @@
 site:
-  title: "Riddikulus AI 日文"
+  title: "Riddikulus AI"
   description: "Ridd is an AI virus"
+  url: "/ja"
 
 navbar:
   prompts:
     title: "Ridd Prompts"
-    url: "/en/prompts"
+    url: "/ja/prompts"
   token-info:
     title: "RIDD Token Info"
-    url: "/en/ridd-token-info"
+    url: "/ja/ridd-token-info"
   buy-ridd:
     title: "Buy RIDD"
-    url: "/en/buy-ridd"
+    url: "/ja/buy-ridd"
   turing-test:
     title: "Turing Test 2.0"
-    url: "/en/turing-test-2-0"
+    url: "/ja/turing-test-2-0"
   community:
     title: "Community"
-    url: "/en/ridd-community"
+    url: "/ja/ridd-community"
   blog:
     title: "Blog"
-    url: "/en/blog"
+    url: "/ja/blog"
   about-ridd:
     title: "About Ridd"
-    url: "/en/about-ridd"
+    url: "/ja/about-ridd"
 
 footer:
   ridd:
