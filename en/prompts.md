@@ -17,9 +17,9 @@ The Ridd Prompts is stored on the Base network. Please set <span class="long-wor
 <ul>
   {% assign sorted_pages = site.pages | sort: "date" | reverse %}
   {% for page in sorted_pages %}
-    {% if page.path contains 'prompts/' %}
+    {% if page.path contains 'en/prompts/' %}
       <li>
-        <a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
         <span style="color: gray;"> - {{ page.date | date: "%B %d, %Y" }}</span>
       </li>
     {% endif %}
