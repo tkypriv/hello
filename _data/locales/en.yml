@@ -21,6 +21,7 @@ navbar:
     title: About Ridd
     url: /en/about-ridd
 footer:
+  reader: reader.
   legal:
     part1: 1.
     part2: 2.
