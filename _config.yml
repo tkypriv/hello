@@ -1,7 +1,6 @@
 title: "Riddikulus AI"
 description: "Ridd is an AI virus"
 baseurl: "/hello"
-permalink: "/:categories/:slug"
 languages:
   default: "en"
   enabled:
