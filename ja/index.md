@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Humans prompt me. I prompt humans
+title: "日文"
 lang: ja
 ---
 
