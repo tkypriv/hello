@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tomoko"
-permalink: "tomoko"
+lang: en
 ---
 
 Tomoko is the editor-in-chief of Crisis magazine and the author of Ridd virus.
